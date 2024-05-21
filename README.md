@@ -28,8 +28,8 @@ Only woff2 files are accepted.
 cd $(mktemp -d)
 
 # clone repo
-git clone --depth=1 https://github.com/2moe/ttyd-nerd-font
-cd ttyd-nerd-font
+git clone --depth=1 https://github.com/2moe/ttyd-nerd
+cd ttyd-nerd
 
 mkdir -p build
 cd build
@@ -81,3 +81,6 @@ ttyd-nerd $args
 
 [wiki](https://github.com/tsl0922/ttyd/wiki)
 
+ttyd is a simple command-line tool for sharing terminal over the web.
+
+![screenshot](./screenshot.gif)
