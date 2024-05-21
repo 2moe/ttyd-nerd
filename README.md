@@ -68,6 +68,10 @@ args=(
   --client-option
   fontSize=19
 
+  # HTTP basic authentication 
+  --credential
+  username-is-user:pls-change-the-passwd
+
   zsh
   --login
 )
